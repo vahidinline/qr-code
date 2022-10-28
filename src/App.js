@@ -2,14 +2,15 @@ import { Container, Row, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import getUnicodeFlagIcon from 'country-flag-icons/unicode';
 import Image from './background.JPG';
+import './App.css';
 function App() {
   return (
-    <Container>
+    <Container className="bg">
       <Row>
-        <div className="fs-5 text-justify">
-          <h1 className="text-center">We now have common ENEMIES! </h1>
-          <h2 className="text-center">Join us</h2>
-          <p>
+        <div className="fs-5 text-justify ">
+          <h1 className="text-center text">We now have common ENEMIES! </h1>
+          <h2 className="text-center text">Join us</h2>
+          <p className="text">
             In solidarity with the people of Ukraine and Iran, we are going to
             have a human chain from Vabaduse valjak to the Embassy of Russia in
             Tallinn. Permission for this event has been granted by Police.

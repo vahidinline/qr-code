@@ -1,7 +1,16 @@
 .App {
   text-align: center;
 }
-
+.bg {
+  background-image: url('./flag-estonia.png');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
