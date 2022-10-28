@@ -8,11 +8,11 @@ function App() {
       <Row>
         <div className="fs-5 text-justify">
           <h1 className="text-center">We now have common ENEMIES! </h1>
+          <h2 className="text-center">Join us</h2>
           <p>
             In solidarity with the people of Ukraine and Iran, we are going to
             have a human chain from Vabaduse valjak to the Embassy of Russia in
-            Tallinn. Permission for this event has been granted by Police. Feel
-            free to take your banners, photos and flags with you.
+            Tallinn. Permission for this event has been granted by Police.
           </p>
         </div>
       </Row>
@@ -20,11 +20,14 @@ function App() {
         <Button
           variant="secondary"
           size="lg"
-          onClick={() => window.open('https://streamable.com/5xri27')}>
+          onClick={() => window.open('https://youtube.com/shorts/NVmNVjT334E')}>
           {getUnicodeFlagIcon('EE')}
           Eesti keel
         </Button>
-        <Button variant="secondary" size="lg">
+        <Button
+          variant="secondary"
+          size="lg"
+          onClick={() => window.open('https://youtube.com/shorts/3aM51RajNjs')}>
           {getUnicodeFlagIcon('UA')}
           украї́нська мо́ва
         </Button>
@@ -32,7 +35,7 @@ function App() {
           variant="secondary"
           size="lg"
           onClick={() => window.open('https://youtube.com/shorts/wvngvzLKHYY')}>
-          >{getUnicodeFlagIcon('RU')}
+          {getUnicodeFlagIcon('RU')}
           русский язык
         </Button>
       </div>
