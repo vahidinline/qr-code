@@ -29,15 +29,18 @@ function App() {
           variant="secondary"
           size="lg"
           onClick={() => window.open('https://streamable.com/5xri27')}>
-          >{getUnicodeFlagIcon('EE')}
+          {getUnicodeFlagIcon('EE')}
           Eesti keel
         </Button>
         <Button variant="secondary" size="lg">
           {getUnicodeFlagIcon('UA')}
           украї́нська мо́ва
         </Button>
-        <Button variant="secondary" size="lg">
-          {getUnicodeFlagIcon('RU')}
+        <Button
+          variant="secondary"
+          size="lg"
+          onClick={() => window.open('https://streamable.com/7rubj3')}>
+          >{getUnicodeFlagIcon('RU')}
           русский язык
         </Button>
       </div>
