@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  Col,
+  Container,
+  Row,
+  Button,
+  Stack,
+  ButtonGroup,
+} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Row>
+        <div className="fs-3 text-justify">
+          We have formed this human chain to support human rights against
+          dictatorships in Iran and Russia. If you believe in human rights,
+          stand by us.
+        </div>
+      </Row>
+      <div className="d-grid gap-2">
+        <Button variant="success" size="lg">
+          Eesti keel
+        </Button>
+        <Button variant="light" size="lg">
+          украї́нська мо́ва
+        </Button>
+        <Button variant="danger" size="lg">
+          русский язык
+        </Button>
+      </div>
+    </Container>
   );
 }
 
